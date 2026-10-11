@@ -2,17 +2,20 @@
 
 A separate ten-line alphabetic cipher block at the foot of a January 1637 letter attributed to Malsburg. This investigation covers that block, not the whole surrounding numerical correspondence.
 
-## What has been found?
+## Current result — 11 October 2026
 
-A repeating sequence of five shifts gives a sustained German reading about command, Swedish generals and possible departure. The proposal reproduces all 510 retained normalized letters, but damaged wording and the people behind several markers remain unresolved.
+This is a reproducible reading proposal for the 510-letter alphabetic block, awaiting external historical and palaeographic verification. The proposed German text discusses command, Swedish generals and possible departure; the opening remains conditional. It does not decipher the surrounding numerical correspondence. The modern label `EFDGC` represents shifts `4,5,3,6,2` over the specified 24-letter alphabet; it is not an established historical keyword. Daniel Bourdeau’s foundational work and Larry Beck’s later contribution with ChatGPT remain credited.
 
-A small example from the recorded result:
+| Evidence layer | Open this |
+| --- | --- |
+| Original | [HCP497 catalogue](https://crypto.hcportal.eu/dashboard/cryptograms/497) · [source image](https://api.hcportal.eu/media/1395/79511677516420.jpg) |
+| Recorded letters / key rule | [Normalized ciphertext](verification/readings/evidence/Malsburg_1637_evidence_and_code/Malsburg_1637/cryptanalysis/normalized_ciphertext.txt) · [alphabet and shifts](malsburg-1637/article.md#one-alphabet-one-key-one-continuous-stream) |
+| Literal / diplomatic German | [Letter-only literal](verification/readings/evidence/Malsburg_1637_evidence_and_code/Malsburg_1637/cryptanalysis/literal_plaintext.txt) · [diplomatic text](verification/readings/evidence/Malsburg_1637_evidence_and_code/Malsburg_1637/cryptanalysis/diplomatic_decipherment.txt) |
+| English interpretation | [What the block says](malsburg-1637/article.md#what-the-block-says) |
 
-```text
-h k u → d e r
-```
+With zero-based `abcdefghiklmnopqrstuwxyz`, `h(7) − 4 = d(3)`, `k(9) − 5 = e(4)` and normalized `ü → u(19) − 3 = r(16)` give `der`. After `[43]`, `z` uses the fourth shift 6 and gives `s`; the marker consumes no key position. [Check the alignment](READING_GUIDE.md#check-one-example-by-hand).
 
-The first three recorded cipher letters become the German opening der under the saved five-shift rule. That small example can be checked by hand.
+**Unresolved / scope limits:** `[43]`, `[45]`, `[LL]` and the cancelled patch have unknown meanings; preserve `seist`, `tqouppen` and `itzigdn`. The English interpretation keeps the opening conditional and allows a proposed letter; it does not establish that the described events occurred. The [9 October numerical-code update](research-updates/2026-10-09-numerical-codes.md) concerns a different corpus and a bounded rejected direct-transfer hypothesis. The 510-letter checker reproduces neither that investigation nor the original statistical search.
 
 ## Research update — 9 October 2026
 

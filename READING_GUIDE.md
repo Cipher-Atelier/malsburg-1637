@@ -22,7 +22,7 @@ h k u → d e r
 
 The first three recorded cipher letters become the German opening der under the saved five-shift rule. That small example can be checked by hand.
 
-The German remains defective at points, and unresolved markers do not identify particular people. Re-encrypting the result checks consistency, not unique historical correctness. The original statistical search is not reproduced by this public replay.
+The German remains defective at points, and unresolved markers do not identify particular people. Re-encrypting the result checks consistency, not unique historical correctness. The original statistical search is not reproduced by this public replay. The modern `EFDGC` label denotes shifts `4,5,3,6,2`, not an established historical keyword. Preserve defective `seist`, `tqouppen` and `itzigdn` beside the [qualified English interpretation](malsburg-1637/article.md#what-the-block-says). The [numerical-code update](research-updates/2026-10-09-numerical-codes.md) covers a different corpus and is outside the 510-letter checker.
 
 ## Check one example by hand
 
@@ -36,7 +36,7 @@ The German remains defective at points, and unresolved markers do not identify p
 | 3 | `u` | 19 | 3 | `r` (16) |
 
 3. Check the same three rows in the [alignment ledger](verification/readings/evidence/Malsburg_1637_evidence_and_code/Malsburg_1637/cryptanalysis/independent_validation/independent_glyph_alignment.csv). The source shape labelled `ü` is normalized to `u`; this is a recorded convention, not a new historical identification.
-4. Compare with the [manuscript image](https://api.hcportal.eu/media/1395/79511677516420.jpg). Numbers `[43]`, `[45]`, the angular `[LL]` and a cancelled patch are retained in the [diplomatic reading](verification/readings/evidence/Malsburg_1637_evidence_and_code/Malsburg_1637/cryptanalysis/diplomatic_decipherment.txt) but do not consume key positions in this model. The shifts continue across line breaks; they do not restart at each row.
+4. Compare with the [manuscript image](https://api.hcportal.eu/media/1395/79511677516420.jpg). Numbers `[43]`, `[45]`, the angular `[LL]` and a cancelled patch are retained in the [diplomatic reading](verification/readings/evidence/Malsburg_1637_evidence_and_code/Malsburg_1637/cryptanalysis/diplomatic_decipherment.txt) but do not consume key positions in this model. The shifts continue across line breaks; they do not restart at each row. After `[43]`, `z(23) − 6 = s(17)` uses the fourth shift. The [letter-only literal](verification/readings/evidence/Malsburg_1637_evidence_and_code/Malsburg_1637/cryptanalysis/literal_plaintext.txt) is separate from the diplomatic text and English interpretation.
 
 Daniel Bourdeau’s source/transcription work and Larry Beck’s later contribution with ChatGPT are credited in the research account. Recorded publication timestamps are not proof of discovery priority or dependence.
 
